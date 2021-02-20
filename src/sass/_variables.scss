@@ -1,0 +1,33 @@
+// Colors
+$dark-cyan: hsl(185, 75%, 39%);
+$dark-blue: hsl(229, 23%, 23%);
+$dark-grayish-blue: hsl(227, 10%, 46%);
+$dark-gray: hsl(0, 0%, 59%);
+
+// Fonts
+$main-font: 'Kumbh Sans', sans-serif;
+
+// Weights
+$regular: 400;
+$bold: 700;
+
+// Sizes
+$normal: 1.125rem; // 18px
+$small: .75rem; // 12px
+$smaller: .625rem; // 10px
+
+// Breakpoints
+
+// 640px, 1024px, 1400px
+$breakpoints-up: (
+        "m": "40em",
+        "l": "64em",
+        "xl": "87.5em"
+);
+
+// 639px, 1023px, 1399px
+$breakpoints-down: (
+        "s": "39.9375em",
+        "m": "63.9375em",
+        "l": "87.4375em"
+);

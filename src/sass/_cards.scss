@@ -1,0 +1,50 @@
+.card {
+  height: 23.3125rem;
+  border-radius: 1rem;
+  background-color: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  &-header {
+    height: 8.75rem;
+    border-radius: 1rem 1rem 0 0;
+    background: url("../../public/images/bg-pattern-card.svg") 0 0 no-repeat;
+  }
+
+  &-body {
+    padding: 4.6875rem 1.875rem 0 1.875rem;
+    line-height: .875rem;
+
+    .avatar {
+      margin-top: -7.8125rem;
+
+      img {
+        border: solid 5px #fff;
+        border-radius: 50px;
+      }
+    }
+  }
+
+  &-footer {
+    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+    line-height: .625rem;
+  }
+
+  .text-main {
+    color: $dark-blue;
+  }
+
+  .text-gray {
+    color: $dark-gray;
+  }
+
+  .text-small {
+    font-size: $small;
+    letter-spacing: .125rem;
+  }
+
+  .text-smaller {
+    font-size: $smaller;
+    letter-spacing: .125rem;
+  }
+
+}
